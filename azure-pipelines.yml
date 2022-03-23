@@ -13,8 +13,8 @@ stages:
   jobs: 
   - job: Build
 
-    pool: Deafult
-      
+    pool:
+      vmImage: 'windows-latest'
 
     variables:
       solution: '**/*.sln'

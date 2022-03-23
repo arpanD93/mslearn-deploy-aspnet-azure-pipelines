@@ -13,7 +13,7 @@ stages:
   jobs: 
   - job: Build
 
-    pool: deafult
+    pool: Deafult
       
 
     variables:
